@@ -1,0 +1,19 @@
+{
+  "name": "test-elysia-app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.tsx",
+    "format": "biome format --write .",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --apply ."
+  },
+  "dependencies": {
+    "@elysiajs/html": "0.8.0",
+    "elysia": "0.8.17"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.5.3",
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
