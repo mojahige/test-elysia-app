@@ -1,0 +1,21 @@
+@layer reset;
+
+@layer reset {
+  * {
+    box-sizing: border-box;
+    min-width: 0;
+  }
+
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  html {
+    font-family: sans-serif;
+  }
+
+  body {
+    margin: 0;
+  }
+}
